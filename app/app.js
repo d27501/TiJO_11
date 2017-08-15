@@ -13,16 +13,14 @@ function getDescendingNumbers(start, stop)
 function isNegativeNumber(number)
 {
     var isNegative = false;
-    if (number <= 0) {
+    if (number < 0) {
         isNegative = true;
     }
 
-    console.log(isNegative);
-
-    return isnegative;
+    return isNegative;
 }
 
 module.exports = {
-    getDescendingNumbers: getDescendingNumbers
-    isNegativeNumber : isNN
+    getDescendingNumbers: getDescendingNumbers,
+    isNegativeNumber : isNegativeNumber
 };
