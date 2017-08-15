@@ -10,6 +10,19 @@ function getDescendingNumbers(start, stop)
     return result;
 }
 
+function isNegativeNumber(number)
+{
+    var isNegative = false;
+    if (number <= 0) {
+        isNegative = true;
+    }
+
+    console.log(isNegative);
+
+    return isnegative;
+}
+
 module.exports = {
     getDescendingNumbers: getDescendingNumbers
+    isNegativeNumber : isNN
 };
