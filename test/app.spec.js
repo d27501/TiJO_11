@@ -10,8 +10,8 @@ describe('getDescendingNumbers', function (){
 });
 
 describe('getDayOfWeek', function (){
-    it('should return variable', function (){
-        expect(app.getDayOfWeek(new Date().getDay())).to.eql('Tuesday');
+    it('should return name of weekday', function (){
+        expect(app.getDayOfWeek(new Date('Tue Aug 15 2017').getDay())).to.eql('Tuesday');
     });
 });
 

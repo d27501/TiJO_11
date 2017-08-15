@@ -12,19 +12,18 @@ function getDescendingNumbers(start, stop)
 
 function getDayOfWeek(n)
 {
-    var day;
-    var dayOfThe_Week;
+    var dayOfTheWeek;
 
     switch (n) {
         case (1):
-            dayOfTheWeek = 'Monday';
+            dayOfTheWeek = "Monday";
             break;
         case (2):
             dayOfTheWeek = "Tuesday";
             break;
         case (3):
             dayOfTheWeek = "Wednesday";
-            break
+            break;
         case (4):
             dayOfTheWeek = "Thursday";
             break;
@@ -42,7 +41,6 @@ function getDayOfWeek(n)
             break;
     }
 
-    console.log( n);
     return dayOfTheWeek;
 }
 
