@@ -10,6 +10,41 @@ function getDescendingNumbers(start, stop)
     return result;
 }
 
+function getDayOfWeek(n)
+{
+    var dayOfTheWeek;
+
+    switch (n) {
+        case (1):
+            dayOfTheWeek = "Monday";
+            break;
+        case (2):
+            dayOfTheWeek = "Tuesday";
+            break;
+        case (3):
+            dayOfTheWeek = "Wednesday";
+            break;
+        case (4):
+            dayOfTheWeek = "Thursday";
+            break;
+        case (5):
+            dayOfTheWeek = "Friday";
+            break;
+        case (6):
+            dayOfTheWeek = "Saturday";
+            break;
+        case (7):
+            dayOfTheWeek = "Sunday";
+            break;
+        default:
+            dayOfTheWeek = "Invalid Weekday";
+            break;
+    }
+
+    return dayOfTheWeek;
+}
+
 module.exports = {
-    getDescendingNumbers: getDescendingNumbers
+    getDescendingNumbers: getDescendingNumbers,
+    getDayOfWeek : getDayOfWeek
 };
